@@ -1,0 +1,49 @@
+#navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+#navbar-opts{
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+#opt{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.15s;
+}
+#opt:hover{
+    color: #6F8FAF;
+    transition: 0.25s;
+}
+#navbar-banner{
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#search-input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+#search-bar{
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(221, 221, 221);
+    transition: 0.25s;
+}
+#search-bar:hover{
+    background-color: rgb(240, 239, 239);
+    transition: 0.5s;
+}

@@ -1,0 +1,95 @@
+#videoplayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white,rgb(250, 250, 250));
+    border-radius: 30px;
+    z-index: -1;
+  }
+  #video{
+    height: 500px;
+    width: 750px;
+  }
+  #collection-grid{
+    display: flex;
+    justify-content: space-around;
+  }
+  #collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    height: 50px;
+    opacity: 0.6;
+    position: absolute;
+    top: 500px;
+
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.25s;
+
+  }
+
+  #collection:hover{
+    cursor: pointer;
+    background-color: white;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  #detail-card-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin: 25px;
+    padding: 10px;
+    transition: 0.25s;
+    color: black;
+    text-decoration: none;
+    
+  }
+  #detail-card-container:hover{
+    box-shadow: 5px 5px 20px grey;
+    transition: 0.5s;
+  }
+  #detail-image{
+    z-index: -1;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: 1s;
+  }
+  #detail-card-container:hover img{
+    transform: scale(1.3);
+    transition: 1.5s;
+  }
+  #detail-button{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.25s;
+  }
+  #detail-button:hover{
+    background-color: rgb(190, 197, 204);
+    cursor: pointer;
+    transition: 0.5s;
+  }
