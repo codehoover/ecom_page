@@ -1,6 +1,16 @@
 import Astrologo from "../assets/A.png"
+import SearchIcon from "@mui/icons-material/Search";
+import { ShoppingCart,AttachMoney } from "@mui/icons-material";
+import { useState } from "react";
+
 
 export default function NavBar(){
+    const [open,setOpen] = useState(false);
+
+    function handleOpen(){
+        setOpen(!open);
+    }
+
     return(
         <div>
             <div id="navbar-container">
@@ -17,12 +27,25 @@ export default function NavBar(){
 
                 <div id="search-bar">
                     <input id="search-input" placeholder="Search for a Product"></input>
-                    <button id="search-button">Search</button>
+                    <button id="search-button"><SearchIcon/></button>
                 </div>
 
-                <div id="wishlist">
-
+                <div id="shopping-cart">
+                    <ShoppingCart/>
                 </div>
+
+                <div id="currency">
+                    <button id="currency-selector" onClick={handleOpen}>
+                        <AttachMoney/>
+                        
+                            <div id="dropdown">
+                                {open ? <div>USD</div> : <div>CAD</div>}
+
+                            </div>
+                    </button>
+                </div>
+                
+
 
             </div>
 

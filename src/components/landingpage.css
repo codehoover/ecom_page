@@ -14,13 +14,13 @@
     display: flex;
     justify-content: space-around;
   }
-  #collection{
+  #collection-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-    border: 1px solid black;
-    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 15px;
     height: 50px;
     opacity: 0.6;
     position: absolute;
@@ -32,7 +32,7 @@
 
   }
 
-  #collection:hover{
+  #collection-button:hover{
     cursor: pointer;
     background-color: white;
     opacity: 1;
@@ -74,13 +74,13 @@
   #detail-button{
     display: flex;
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     color: black;
-    border-radius: 25px;
-    border: 1px solid black;
+    border-radius: 50px;
+    border: 2px solid black;
     height: 50px;
     width: 100px;
     padding: 10px;

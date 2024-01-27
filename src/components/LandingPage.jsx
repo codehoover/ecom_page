@@ -12,7 +12,7 @@ export default function LandingPage(){
                     <source src={Video} type="video/mp4"/>
                 </video>
 
-                <button id="collection">
+                <button id="collection-button">
                     <p>
                         SHOP THE COLLECTION
                     </p>

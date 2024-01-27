@@ -47,3 +47,31 @@
     background-color: rgb(240, 239, 239);
     transition: 0.5s;
 }
+#search-button{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    transition: 0.25s;
+}
+#search-button:hover{
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#currency-selector{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    transition: 0.25s;
+}
+#currency-selector:hover{
+    cursor: pointer;
+    background-color: #dadada;
+    border-radius: 100px;
+    transition: 0.5s;
+}

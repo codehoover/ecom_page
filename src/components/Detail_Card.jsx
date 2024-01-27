@@ -6,8 +6,6 @@ export default function Detail_Card({title,image}){
             <button id="detail-button">SHOP</button>
             <img id="detail-image" src={image} />
 
-            
-
         </a>
     )
 }
